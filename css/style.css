@@ -219,6 +219,23 @@ body {
   font-size: 1.4rem;
 }
 
+.menu p a {
+  color: var(--hijau-muda);
+}
+
+.menu p a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid var(--hijau-muda);
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.menu p a:hover::after {
+  transform: scaleX(1);
+}
+
 .menu .row {
   display: flex;
   flex-wrap: wrap;
