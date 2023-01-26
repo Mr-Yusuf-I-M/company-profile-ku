@@ -492,13 +492,14 @@ footer .credit a {
   .navbar .navbar-nav {
     position: absolute;
     bottom: 100%;
-    bottom: -1100%;
+    bottom: -1700%;
     margin-left: 0;
     margin-right: 0;
     background-color: var(--hijau-tua);
     width: 90%;
     height: 12vh;
     transition: 0.3ms;
+    z-index: 99999999;
     justify-content: center;
   }
 }
