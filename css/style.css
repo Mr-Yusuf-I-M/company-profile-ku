@@ -484,4 +484,31 @@ footer .credit a {
   html {
     font-size: 55%;
   }
+  #hamburger-menu {
+    display: inline-block;
+  }
+
+  .navbar .navbar-nav {
+    position: absolute;
+    bottom: 100%;
+    bottom: -1250%;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: var(--hijau-tua);
+    width: 90%;
+    height: 12vh;
+    transition: 0.3ms;
+    justify-content: center;
+  }
+
+  .navbar .navbar-nav.active {
+    bottom: 100%;
+  }
+
+  .navbar .navbar-nav a {
+    color: var(--hijau-muda);
+    font-size: 1.2rem;
+    padding: 1rem;
+    left: 10rem;
+  }
 }
