@@ -419,6 +419,12 @@ footer .credit a {
   color: rgba(0, 0, 0, 0.6);
 }
 
+.pdf iframe {
+  padding: 6rem 0%;
+  height: 100%;
+  width: 100%;
+}
+
 /* Media Queries */
 /* Laptop */
 @media (max-width: 1366px) {
