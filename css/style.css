@@ -204,6 +204,9 @@ body {
 .contact h2 {
   margin-bottom: 1rem;
 }
+.menu h3 {
+  font-size: 1.4rem;
+}
 
 .menu p,
 .contact p {
@@ -213,6 +216,7 @@ body {
   font-weight: 100;
   line-height: 1.6;
   color: var(--hijau-muda);
+  font-size: 1.4rem;
 }
 
 .menu .row {
