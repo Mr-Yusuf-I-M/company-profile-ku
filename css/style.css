@@ -593,7 +593,8 @@ footer .credit a {
     margin-right: 0;
     background-color: var(--hijau-tua);
     background: rgba(19, 71, 26, 0.5);
-    height: 12vh;
+    height: 5vh;
+    text-align: center;
     transition: 0.3ms;
     justify-content: center;
   }
@@ -707,7 +708,8 @@ footer .credit a {
     margin-right: 0;
     background-color: var(--hijau-tua);
     background: rgba(19, 71, 26, 0.5);
-    height: 12vh;
+    height: 5vh;
+    text-align: center;
     transition: 0.3ms;
     justify-content: center;
   }
