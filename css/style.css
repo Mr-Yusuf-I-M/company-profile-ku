@@ -700,20 +700,20 @@ footer .credit a {
   }
 
   .navbar .navbar-nav {
-    position: absolute;
-    bottom: 100%;
-    bottom: -1250%;
+    position: fixed;
+    bottom: 0;
+    width: 85%;
     margin-left: 0;
     margin-right: 0;
     background-color: var(--hijau-tua);
-    width: 90%;
+    background: rgba(19, 71, 26, 0.5);
     height: 12vh;
     transition: 0.3ms;
     justify-content: center;
   }
 
   .navbar .navbar-nav.active {
-    bottom: 100%;
+    bottom: 0;
   }
 
   .navbar .navbar-nav a {
@@ -721,6 +721,12 @@ footer .credit a {
     font-size: 1.2rem;
     padding: 1rem;
     left: 10rem;
+  }
+
+  .menu .row .menu-card img {
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
   }
 
   .kurachat {
