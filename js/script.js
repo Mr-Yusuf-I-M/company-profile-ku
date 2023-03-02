@@ -14,3 +14,12 @@ document.addEventListener("click", function (e) {
     navbarNav.classList.remove("active");
   }
 });
+
+var pdfViewer = document.getElementById("pdf-viewer");
+pdfViewer.addEventListener("load", function () {
+  var pdfDoc = pdfViewer.contentDocument || pdfViewer.contentWindow.document;
+  var pdfPages = pdfDoc.getElementsByTagName("page");
+  for (var i = 0; i < pdfPages.length; i++) {
+    pdfPages[i].style.width = "100%";
+  }
+});
